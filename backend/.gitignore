@@ -1,12 +1,12 @@
+# Created by https://www.gitignore.io/api/node
+
+### Node ###
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# IDE Data
-.vscode/
 
 # Runtime data
 pids
@@ -32,14 +32,14 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
@@ -60,5 +60,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# next.js build output
-.next
+
+# End of https://www.gitignore.io/api/node
+
+# sqlite database
+db/database.sqlite
