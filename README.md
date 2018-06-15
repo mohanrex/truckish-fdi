@@ -33,10 +33,10 @@ $ npm i
 # start the server
 $ ng serve
 ```
-> Angular Material is already included. You can directly start using Angular Material components. [More Info]https://material.angular.io/components/categories
+> Angular Material is already included. You can directly start using Angular Material components. [More Info](https://material.angular.io/components/categories)
 
 ### API Documentation
-You can find the api documentation at [Postman Collection]https://documenter.getpostman.com/view/3745793/RWEdugXj
+You can find the api documentation at [Postman Collection](https://documenter.getpostman.com/view/3745793/RWEdugXj)
 
 ## General Assessment Info
 This problem requires you to showcase your skills in Angular 2 or greater and integrating angular with other third party apis like google map and weather API etc.. Kindly design the pages with your own ideas by following material design guidelines.
