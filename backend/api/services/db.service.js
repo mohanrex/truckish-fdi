@@ -1,5 +1,6 @@
 const database = require('../../config/database');
 const Places = require('../models/Places');
+const User = require('../models/User');
 
 const dbService = (environment, migrate) => {
   const authenticateDB = () => database.authenticate();
@@ -87,6 +88,10 @@ const dbService = (environment, migrate) => {
   };
 
   const dbInit = async () => {
+    await User.create({
+      email: 'test@test.com',
+      password: 'test123',
+    });
     const places = await Places.findAll();
     if (places.length < 1) {
       const defaultPlaces = [

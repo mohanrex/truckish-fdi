@@ -21,6 +21,8 @@ $ npm i
 # start the api
 $ npm start
 ```
+> There are five stadiums and one demo user which is already present. Demo user credentials are test@test.com:test123
+> Whenever you restart the backend or do some changes in backend files the database will be cleared.
 
 ### To start the frontend
 
