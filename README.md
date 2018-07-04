@@ -43,17 +43,15 @@ This problem requires you to showcase your skills in Angular 2 or greater and in
 You can also improve this application by implementing creative additional functionalities on your own.
 
 ### Phase I
-- Implement a login page
-- Implement a home page which will show all the Football Stadiums in a card based view. This card should have an image, name, 25 letters of description and address
-- Implement a logout functionality
+- Implement a home page which will show all the Football Stadiums in a card based view. This card should have an image, name and 25 letters of description
+- When a user clicks the stadium name, the detailed page of the stadium needs to be shown.
+- Detailed page needs to show Name, address, full description and image.
+- Detailed page should show a map in which the location of the stadium should be marked and shown
+- Detailed page should also contain weather information of that place by using any opensource Weather API providers.
 
 ### Phase II
-- When a user clicks the stadium name, the detailed page of the stadium needs to be shown.
-- Detailed page needs to show Name, full description and image.
-- It should show a map in which the location of the stadium should be marked and shown
-- This page should also contain weather information of that place by using Weather API.
-
-### Phase III
-- Implement a Register/signup page.
 - Implement a form which will allow the user to add more stadiums.
+- Proper validations needs to be done
 - Form should collect all the information
+
+Clone this repository and start developing in it. Commit as often.
